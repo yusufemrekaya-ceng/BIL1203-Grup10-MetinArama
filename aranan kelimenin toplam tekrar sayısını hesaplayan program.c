@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //commit denemesi
 //Aranan kelimenin toplam tekrar sayısını hesaplayan program
 int main() {
     char metin[1000];
