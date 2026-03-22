@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+// Harfi küçük yapan yardımcı fonksiyon
+char kucukYap(char c) {
+    if (c >= 'A' && c <= 'Z') {
+        return c + 32;
+    }
+    return c;
 // Kelimeyi metin içinde sayan fonksiyon
 int kelimeSay(char metin[], char kelime[]) {
     int i, j, sayac = 0;
